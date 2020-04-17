@@ -1,0 +1,102 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    display: none;
+}
+
+.photo-container{
+    position: relative;
+}
+
+.main-header{
+    text-align: center;
+    padding-top: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    margin-top: 2px;
+    background-color: slategray;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.main-nav{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.special{
+    position: absolute;
+    top:0;
+    right: 10px;
+    z-index: 1000;
+}
+.photo{
+    width: 100%;
+}
+
+.zoom{
+    top: 100px;
+    right: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(100,100,100,0.5);
+    transform: translateY(-100%);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.banner img{
+    width: 100%;
+}
+
+.more{
+    background-color:black;
+    border: 3px solid black;
+    text-decoration: blanchedalmond;
+    color: blanchedalmond;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+/*version tablet*/
+@media (min-width:521px){
+    .banner{
+        display: block;
+
+    }
+    .banner img{
+        width: 100%;
+    }
+    .vip-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-nav ul{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}

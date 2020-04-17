@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(../Imagenes/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#margin-big{
+    margin: 20px 400px;
+
+}
+
+#barra-superior{
+    background-color: rgb(255, 184, 31);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    
+}
+
+#alinear-texto{
+    display: inline;
+    padding-left: 40px;
+    
+    
+}
+
+#barra-grande{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+#columna-grande{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#columna-chica{
+    
+    padding: 7px;
+}
+
+.ver-mas{
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    margin: 0px 250px 5px 0px;
+    border-radius: 5px;
+    
+}
+
+#tutoriales{
+    background-color: white;
+}
+
+#titulos{
+    background-color: white;
+    padding: 1px;
+}
+
+#publicidad{
+    background-color: white;
+    
+}
+
+#publicidad-fotos{
+    background-color: white;
+    padding: 10px;
+}
+.imagenes-ancho{
+    width: 100%;
+}
